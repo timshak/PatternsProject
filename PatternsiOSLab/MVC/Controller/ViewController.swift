@@ -10,11 +10,19 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var nameLabel: UILabel!
+    
+    var dataManager: DataManager!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        dataManager = DataManager()
     }
 
-
+    @IBAction func didPressedChangeNameButton(_ sender: Any) {
+        let names = dataManager.obtainNames()
+        nameLabel.text = names.randomElement()
+    }
+    
 }
 
