@@ -23,7 +23,5 @@ class VIPERRouter: VIPERRouterInput {
         
         alert.addAction(okButton)
         view.present(alert, animated: true, completion: nil)
-        
-        UIAlertView
     }
 }

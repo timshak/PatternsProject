@@ -68,7 +68,6 @@
 		7C8D67082211A1C200D8E204 /* VIPERRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VIPERRouter.swift; sourceTree = "<group>"; };
 		7C8D670A2211A1D100D8E204 /* VIPERRouterInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VIPERRouterInput.swift; sourceTree = "<group>"; };
 		7C8D670C2211A42E00D8E204 /* VIPERModuleConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VIPERModuleConfigurator.swift; sourceTree = "<group>"; };
-		7C8D670E2211ADFD00D8E204 /* PatternsiOSLab-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PatternsiOSLab-Bridging-Header.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,7 +116,6 @@
 		7C8D66D22211974600D8E204 /* MVC */ = {
 			isa = PBXGroup;
 			children = (
-				7C8D670E2211ADFD00D8E204 /* PatternsiOSLab-Bridging-Header.h */,
 				7C8D66D42211980700D8E204 /* Controller */,
 				7C8D66D3221197FF00D8E204 /* View */,
 			);
@@ -498,7 +496,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = ru.iosLab.PatternsiOSLab;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "PatternsiOSLab/VIPER/View/PatternsiOSLab-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -518,7 +516,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = ru.iosLab.PatternsiOSLab;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "PatternsiOSLab/VIPER/View/PatternsiOSLab-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
