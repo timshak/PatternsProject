@@ -28,9 +28,9 @@
 		D9469A002219988B00866794 /* ColorExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D94699FF2219988B00866794 /* ColorExtensions.swift */; };
 		D9469A02221998D600866794 /* DoubleWithComma.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9469A01221998D600866794 /* DoubleWithComma.swift */; };
 		D9469A04221998E400866794 /* Storyboards.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9469A03221998E400866794 /* Storyboards.swift */; };
-		D9469A06221998F100866794 /* ReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9469A05221998F100866794 /* ReusableView.swift */; };
 		D9469A082219990600866794 /* ColorPallete.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9469A072219990600866794 /* ColorPallete.swift */; };
 		D9469A0B22199B3F00866794 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9469A0922199B3F00866794 /* Main.storyboard */; };
+		D9DEA08C221FEAB000694843 /* ReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9DEA08B221FEAB000694843 /* ReusableView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -57,9 +57,9 @@
 		D94699FF2219988B00866794 /* ColorExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtensions.swift; sourceTree = "<group>"; };
 		D9469A01221998D600866794 /* DoubleWithComma.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoubleWithComma.swift; sourceTree = "<group>"; };
 		D9469A03221998E400866794 /* Storyboards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storyboards.swift; sourceTree = "<group>"; };
-		D9469A05221998F100866794 /* ReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReusableView.swift; sourceTree = "<group>"; };
 		D9469A072219990600866794 /* ColorPallete.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPallete.swift; sourceTree = "<group>"; };
 		D9469A0A22199B3F00866794 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = ../../MVPCalc/MVPCalc/Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D9DEA08B221FEAB000694843 /* ReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReusableView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -176,11 +176,11 @@
 		D94699E02219970E00866794 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
-				D9469A05221998F100866794 /* ReusableView.swift */,
 				D94699FF2219988B00866794 /* ColorExtensions.swift */,
 				D9469A01221998D600866794 /* DoubleWithComma.swift */,
 				D9469A03221998E400866794 /* Storyboards.swift */,
 				D9469A072219990600866794 /* ColorPallete.swift */,
+				D9DEA08B221FEAB000694843 /* ReusableView.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -268,8 +268,8 @@
 				D94699F0221997E700866794 /* CalculatorRouterInput.swift in Sources */,
 				D94699F2221997FB00866794 /* CalculatorPresenter.swift in Sources */,
 				D94699FA2219983C00866794 /* CalculatorErrors.swift in Sources */,
+				D9DEA08C221FEAB000694843 /* ReusableView.swift in Sources */,
 				D94699EC221997C800866794 /* CalculatorViewOutput.swift in Sources */,
-				D9469A06221998F100866794 /* ReusableView.swift in Sources */,
 				D94699F82219983000866794 /* Operations.swift in Sources */,
 				D94699E22219975300866794 /* CalculatorInteractor.swift in Sources */,
 				D9469A02221998D600866794 /* DoubleWithComma.swift in Sources */,

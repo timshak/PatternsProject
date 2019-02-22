@@ -2,7 +2,7 @@
 //  ReusableView.swift
 //  VIPERCalc
 //
-//  Created by Тимур Шакиров on 17/02/2019.
+//  Created by Тимур Шакиров on 22/02/2019.
 //  Copyright © 2019 Тимур Шакиров. All rights reserved.
 //
 
@@ -28,3 +28,4 @@ extension UIStoryboard {
         return instantiateViewController(withIdentifier: T.reuseIdentifier) as! T
     }
 }
+
